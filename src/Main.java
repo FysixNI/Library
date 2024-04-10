@@ -4,10 +4,8 @@ public class Main
     {
         Book b = new Book("Ethan", "Java Programming", "9782329392");
 
-        System.out.println(b);
+        UserInterface ui = new UserInterface();
+        ui.mainMenu();
 
-        b.setOnLoan(true);
-
-        System.out.println(b);
     }
 }
