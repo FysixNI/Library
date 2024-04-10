@@ -35,10 +35,10 @@ public class UserInterface
            switch (userInput)
            {
                case "1":
-                   System.out.println("we'll add a book here");
+                   this.addBook();
                    break;
                case "2":
-                   System.out.println("we'll add a book here");
+                   this.listAllBooks();
                    break;
                case "0":
                    quit = true;
